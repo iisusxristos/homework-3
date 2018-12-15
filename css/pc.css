@@ -1,0 +1,84 @@
+@import url(tel.css) (max-width: 440px);
+@media (min-width: 440px){
+	body {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left:10%;
+		margin: 0 auto;
+		padding: 0;
+		width: 80%;
+	}
+	.header {
+		position: relative;
+		top: 0px;
+		background: grey;
+		width: 100%;
+		height: 10%;
+		border-radius: 0 0 10px 10px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	a {
+		text-decoration: none;
+		position: relative;
+		top: 15%;
+		left: 20px;
+		color:#000;
+		font-size: 18px;
+		font-family: serif;
+	}
+	a::before {
+		content: '';
+		bottom: -3px;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		height: 4px;
+		background-color: #000;
+		transform: 0.2s;
+		border-radius:2px;
+	}
+	.header a {
+		margin:0;
+		padding: 0;
+	}
+	.container {
+		width: 100%;
+		height:70%;
+		background: blue;
+		border-radius: 10px;
+		margin:0 auto;
+		padding: 0;
+	}
+	.container a {
+		font-size: 35px;
+	}
+	p {
+		margin: 0 0 0 20px;
+		padding: 0;
+	}
+	.adapt {
+		position: absolute;
+		bottom: 25%;
+		left: 10%;
+		width:40%;
+		height: 25%;
+		background: darkblue;
+		color: white;
+		border-radius: 10%;
+	}
+	.adapt p {
+		margin:15% 0 0 20%;
+	}
+	.footer {
+		position: absolute;
+		bottom: 0;
+		width:100%;
+		height: 10%;
+		margin:0 auto;
+		padding: 0;
+		background: grey;
+		border-radius: 10px 10px 0 0;
+	}
+}
